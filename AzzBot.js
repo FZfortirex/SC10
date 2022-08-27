@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+botname = 'Cemara BotWhatsapp'
+wm = '© dnzainn'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -1587,7 +1587,7 @@ var total = 0
 for (let o of _cmd) {
   total = total + o.count
 }
-var teks = `*ZETS BOT DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
+var teks = `*CEMARA DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
 teks += `*Most Command Global*\n`
 for (let u = 0; u < jumlahCmd; u ++) {
   teks += `• ${_cmd[u].nama} : ${_cmd[u].count}\n`
@@ -2676,7 +2676,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
 ✔︎ *Bot Name:* _${global.botname}_
 ✔︎ *Owner Name:* _${global.ownername}_
 ✔︎ *Runtime:* _${runtime(process.uptime())}_
-✔︎ *Gc Bot:* _${global.gc}_
+✔︎ *Instagram:* _${global.linkig}_
 ✔︎ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 ✔︎ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_ 
 ✔︎ *Library:* _Baileys-Md_
@@ -2744,12 +2744,7 @@ anu = `Hai kak ${pushname}, have a nice day:)
    ⚠︎ ${prefix}anime
    ⚠︎ ${prefix}waifu
    ⚠︎ ${prefix}husbu
-   ⚠︎ ${prefix}neko
    ⚠︎ ${prefix}shinobu
-   ⚠︎ ${prefix}waifus (nsfw)
-   ⚠︎ ${prefix}nekos (nsfw)
-   ⚠︎ ${prefix}trap (nsfw)
-   ⚠︎ ${prefix}blowjob (nsfw)
 
 ♕︎ *Textpro*
    ⚠︎ ${prefix}3dchristma
