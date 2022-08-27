@@ -1,7 +1,7 @@
 {
-  "name": "Zetspublic",
+  "name": "Cemara botWhatsapp",
   "version": "3..0.0",
-  "description": "WhatsApp Using Lib Baileys Multi Device",
+  "description": "Ceria bersama-sama",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -18,7 +18,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "Nando35.",
+  "author": "@dnzainn",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.3.0",
